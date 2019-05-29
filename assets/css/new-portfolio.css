@@ -1,14 +1,23 @@
 body {
-  background-image: url("../images/bgimage1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 100vw;
 }
 
+.bg-container {
+  background-image: url("../images/bgimage1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  width: 100vw;
+}
+
+.middle {
+  min-height: max-content;
+}
 #main-header {
   color: white;
   font-family: 'Kalam', cursive;
@@ -46,3 +55,85 @@ body {
 a:hover {
   color: rgb(212, 229, 255) !important;
 }
+
+
+
+#port-head {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  font-weight: 100%;
+ 
+}
+
+.card-container {
+width: 100%;
+background-color: white;
+margin: 0 auto;
+padding-bottom: 60px;
+display: inline-flex;
+justify-content: center;
+
+}
+.card {
+  border: 2px solid rgb(0, 0, 0);
+  min-height: 300px;
+  width: 33.3333%;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  
+  
+}
+
+
+#tool-header
+
+{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Kalam', cursive;
+  font-size: 70px;
+  font-weight: 100%;
+
+}
+
+.tool-container {
+
+  width: 100vw;
+  background-color: white;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.images {
+
+  width: 100px;
+  height: 20%;
+  margin: 0 20px 0 20px;
+
+  
+}
+
+#js-logo {
+  margin-top: 25px;
+
+}
+
+#bs-logo {
+  margin-top: 13px;
+
+}
+
+
+
+
+
+
+
